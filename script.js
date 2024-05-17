@@ -1,6 +1,6 @@
 function mincost(arr)
 { 
-	const ab=arr.reduce((item,sum)=>{
+	const ab=arr.reduce((sum,item)=>{
 		sum+=item;
 		return sum;
 	},0);
